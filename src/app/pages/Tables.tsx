@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
-import { Header } from '../../components/layout/Header';
-import { Navigation } from '../../components/layout/Navigation';
-import { SubscriptionGuard } from '../../components/layout/SubscriptionGuard';
+import { Header } from '../components/Header';
+import { Navigation } from '../components/Navigation';
+import { SubscriptionGuard } from '../components/SubscriptionGuard';
 import { Table as TableType } from '../../types';
 import { Link } from 'react-router';
 import { User, Sparkles } from 'lucide-react';
