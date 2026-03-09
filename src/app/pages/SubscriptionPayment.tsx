@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Header } from '../../components/layout/Header';
+import { Header } from '../components/Header';
 import { formatCurrency } from '../../lib/utils/format';
 import { CreditCard, ArrowLeft, Clock3 } from 'lucide-react';
 import { Button } from '../components/ui/button';
