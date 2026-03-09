@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useNavigate, useSearchParams } from 'react-router';
-import { Header } from '../../components/layout/Header';
-import { Navigation } from '../../components/layout/Navigation';
+import { Header } from '../../components/Header';
+import { Navigation } from '../../components/Navigation';
 import { categories } from '../../lib/data/mockData';
 import { formatCurrency } from '../../lib/utils/format';
 import { Dish } from '../../types';
