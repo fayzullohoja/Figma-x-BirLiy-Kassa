@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Header } from '../../components/layout/Header';
-import { Navigation } from '../../components/layout/Navigation';
-import { SubscriptionGuard } from '../../components/layout/SubscriptionGuard';
+import { Navigation } from '../../components/Navigation';
+import { SubscriptionGuard } from '../../components/SubscriptionGuard';
 import { formatCurrency } from '../../lib/utils/format';
 import { ShoppingBag, DollarSign, TrendingUp, Users, FileText, CreditCard, AlertTriangle, ChevronRight } from 'lucide-react';
 import { Link } from 'react-router';
