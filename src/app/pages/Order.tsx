@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { useParams, useNavigate } from 'react-router';
-import { Header } from '../../components/layout/Header';
-import { Navigation } from '../../components/layout/Navigation';
+import { Header } from '../../components/Header';
+import { Navigation } from '../../components/Navigation';
 import { Minus, Plus, Trash2 } from 'lucide-react';
 import { Order as OrderType, OrderItem } from '../../types';
 import { formatCurrency } from '../../lib/utils/format';
