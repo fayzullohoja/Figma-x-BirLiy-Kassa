@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
-import { Header } from '../../components/layout/Header';
-import { Navigation } from '../../components/layout/Navigation';
+import { Header } from '../components/Header';
+import { Navigation } from '../components/Navigation';
 import { Plus, Store, Users, Calendar, CheckCircle2, XCircle, RefreshCw } from 'lucide-react';
 import * as Tabs from '@radix-ui/react-tabs';
 import * as Dialog from '@radix-ui/react-dialog';
