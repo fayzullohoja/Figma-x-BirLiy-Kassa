@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
-import { Header } from '../../components/Header';
-import { Navigation } from '../../components/Navigation';
-import { SubscriptionGuard } from '../../components/SubscriptionGuard';
+import { Header } from '../components/Header';
+import { Navigation } from '../components/Navigation';
+import { SubscriptionGuard } from '../components/SubscriptionGuard';
 import { Clock, User } from 'lucide-react';
 import { formatCurrency } from '../../lib/utils/format';
 import { Link, useNavigate } from 'react-router';
