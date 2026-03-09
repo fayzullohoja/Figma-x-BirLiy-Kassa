@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
-import { Header } from '../../components/layout/Header';
-import { Navigation } from '../../components/layout/Navigation';
+import { Header } from '../components/Header';
+import { Navigation } from '../components/Navigation';
 import { formatCurrency } from '../../lib/utils/format';
 import { Calendar, CheckCircle2, XCircle, AlertTriangle, CreditCard, Clock } from 'lucide-react';
 import { format, differenceInDays } from 'date-fns';
