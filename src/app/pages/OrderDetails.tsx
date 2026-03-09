@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
-import { Header } from '../../components/Header';
-import { Navigation } from '../../components/Navigation';
+import { Header } from '../components/Header';
+import { Navigation } from '../components/Navigation';
 import { formatCurrency, formatDateTime } from '../../lib/utils/format';
 import { Order } from '../../types';
 import { getOrderById } from '../../lib/api/birliyApi';
