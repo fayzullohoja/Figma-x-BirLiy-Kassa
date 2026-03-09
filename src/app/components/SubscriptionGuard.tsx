@@ -65,12 +65,8 @@ export function SubscriptionGuard({ children, role = 'owner' }: SubscriptionGuar
             </div>
 
             <h2 className="text-2xl font-bold mb-2">Подписка истекла</h2>
-            <p className="text-muted-foreground mb-2">
-              Чтобы продолжить работу, оплатите подписку.
-            </p>
-            <p className="text-lg font-semibold text-[#1a5f3f] mb-6">
-              Стоимость: 50 000 сум / месяц
-            </p>
+            <p className="text-muted-foreground mb-2">Чтобы продолжить работу, оплатите подписку.</p>
+            <p className="text-lg font-semibold text-[#1a5f3f] mb-6">Стоимость: 50 000 сум / месяц</p>
 
             <div className="bg-muted rounded-lg p-4 mb-6">
               <p className="text-sm text-muted-foreground mb-1">Ваше заведение</p>
@@ -96,9 +92,7 @@ export function SubscriptionGuard({ children, role = 'owner' }: SubscriptionGuar
           </div>
 
           <h2 className="text-2xl font-bold mb-2">Доступ временно ограничен</h2>
-          <p className="text-muted-foreground mb-6">
-            Обратитесь к владельцу заведения.
-          </p>
+          <p className="text-muted-foreground mb-6">Обратитесь к владельцу заведения.</p>
 
           <div className="bg-muted rounded-lg p-4">
             <p className="text-sm text-muted-foreground mb-1">Заведение</p>
