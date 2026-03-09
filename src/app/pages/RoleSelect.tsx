@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router';
-import { Header } from '../../components/layout/Header';
+import { Header } from '../../components/Header';
 import { User, Crown, Briefcase } from 'lucide-react';
 import { setCurrentRole, setCurrentUserName, setRestaurantId } from '../../lib/appSession';
 import { ensureSessionByRole } from '../../lib/api/birliyApi';
